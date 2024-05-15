@@ -1,0 +1,7 @@
+	for (i = 0; i <= 25; i += 1)
+	{
+		gotoxy(0, i);
+		printf("□");
+		gotoxy(50, i);
+		printf("□");
+	}
