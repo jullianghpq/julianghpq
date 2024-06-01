@@ -1,0 +1,10 @@
+}
+  
+void mirrorIteratively(BTree * root)
+{
+  int top = 0;
+  BTree * t;
+  BTree * stack[MAXSIZE+1];
+    
+  if(root == NULL)
+    return;
