@@ -1,0 +1,12 @@
+        cout << this->arc[count].data<<" ";
+        ArcNode * temp = this->arc[count].firstarc;
+        while (temp) {
+            cout<<"<"<< this->arc[count].data<<","<< this->arc[temp->adjvex].data<<"> ";
+            temp = temp->next;
+        }
+        cout << "^" << endl;
+        ++count;
+    }
+}
+ 
+bool Graph_DG::topological_sort() {
